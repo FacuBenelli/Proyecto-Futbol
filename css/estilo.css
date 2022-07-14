@@ -38,6 +38,7 @@ h3{
 	padding: 10px 10px;
 	color: yellow;
 }
+h4{color: yellow;}
 p{margin: 20px 20px;
 	padding: 10px 20px;
 	color: white;
@@ -84,6 +85,7 @@ iframe{
 	color: yellow;
 
 }
+
 .datos{
 	color: yellow;
 }
@@ -92,7 +94,16 @@ iframe{
 	padding: 10px 10px;
 	width: 50px 50px;
 }
+.noticia{
+    width: auto;
+    max-width: 100%;
+    transition: 1s;
+}
 
+.noticia:hover{
+    transform: scale(1.03);
+    
+}
 .galeria{display: flex;
     margin: 0  auto;
     height: 300px;
