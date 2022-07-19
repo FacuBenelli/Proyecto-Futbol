@@ -7,7 +7,6 @@
     font-family: "texto";
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
-
 body{ max-width: 100%;
 	background: black;
 }
@@ -61,8 +60,6 @@ a{text-decoration: none;
 	margin: 20px 20px;
 }
 iframe{
-    width: 500px;
-    height: 400px;
     margin: 20px;
     padding: 20px;
     border: #000;
@@ -179,8 +176,8 @@ iframe{
     border: none;
     outline: none;
     height: 40px;
-    background: #08b0ce;
-    color: #fff;
+    background: #FFCB01;
+    color: black;
     font-size: 18px;
     border-radius: 20px;
 }
