@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family:Montserrat;
+}
+@font-face {
+    font-family: "texto";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+body{ max-width: 100%;
+	background: black;
+}
+h2{ 
+    margin:10px 10px ;
+    padding: 10px 10px;
+	color: yellow;
+	text-align: center;
+    font-family:texto;
+}
+
+header{justify-content: center;
+	display: flex;
+    background-color: black; }
+    .navbar .navbar-nav, .navbar .mr-auto {
+        flex: 1;
+        background-color: #FFCB01;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .estadio{width: 250px;
+        height: 250px;
+    justify-content:right;
+    transition: 1s;
+    }
+    .estadio:hover{
+        transform: scale(1.05);
+        
+    }
+    
+    .escudo{width: 250px;
+        height: 250px;
+    justify-content:right;
+    transition: 1s;
+    }
+    .escudo:hover{
+        transform: scale(1.05);
+    }
+    .cds{width: 250px;
+        height: 250px;
+    justify-content:right;
+    transition: 1s; 
+    }
+    .cds:hover{
+        transform: scale(1.05);
+    }
+    
+    @media (max-width: 800px) {
+        .estadio {display: none;}
+        .cds {display:none;}
+    
+    }
+    .pie a img {display: inline-flex;
+        margin-top: 80px;
+        width: 30px;
+        height: 30px;
+    }
+    .links{
+        margin: 20px 20px;
+    }
