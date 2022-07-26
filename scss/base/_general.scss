@@ -20,13 +20,20 @@ h2{
 
 header{justify-content: center;
 	display: flex;
-    background-color: black; }
+    background-color: black; 
+}
     .navbar .navbar-nav, .navbar .mr-auto {
         flex: 1;
         background-color: #FFCB01;
         color: black;
         font-size: 18px;
         font-weight: 500;
+      }
+      .nav-color{
+        background-color: #FFCB01;
+    }
+    .navbar .navbar-nav, .navbar .mr-auto {
+        flex: 1;
       }
       .estadio{width: 250px;
         height: 250px;
