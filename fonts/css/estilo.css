@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family:Montserrat;
+}
+@font-face {
+    font-family: "texto";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+body{ max-width: 100%;
+	background: black;
+}
+
+header{justify-content: center;
+	display: flex;
+    background-color: black; 
+}
+h1{ 
+
+	color: #FFCB01;
+	text-align: center;
+    font-family: texto;
+    font-weight: bolder;
+    max-width: 100%;
+}
+
+h2{ 
+    margin:10px 10px ;
+    padding: 10px 10px;
+	color: yellow;
+	text-align: center;
+    font-family:texto;
+}
+h3{ 
+    margin: 10px 10px;
+	text-align: center;
+	padding: 10px 10px;
+	color: yellow;
+}
+h4{color: yellow;}
+h6{text-align: center;
+    color: black;
+    background-color: yellow;
+}
+p{margin: 20px 20px;
+	padding: 10px 20px;
+	color: white;
+	font-size: 18px;
+    font-family: texto;   
+}
+a{text-decoration: none;
+	color: yellow;
+    font-weight: 500px;
+}
+
+ a:hover{
+	color: darkred;
+}
+.links{
+	margin: 20px 20px;
+}
+iframe{width: 500px;
+    height: 500px;
+    max-width: 80%;
+    margin: 20px;
+    padding: 20px;
+    border: #000;
+}
+/*clases*/
+.escudo{ height: 170px ;
+	width: 170px ;
+}
+.navbar .navbar-nav, .navbar .mr-auto {
+    flex: 1;
+    background-color: #FFCB01;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+.gente{height: 500px;
+	width: 600px;
+	margin: 20px;
+
+ }
+.titulos{margin: 10px 10px;
+	padding: 10px 10px;
+	color: yellow;
+
+}
+.datos{
+	color: yellow;
+}
+.hinchada{
+	margin: 10px 10px;
+	padding: 10px 10px;
+	width: 50px 50px;
+}
+.noticia{
+    width: auto;
+    max-width: 100%;
+    transition: 1s;
+}
+.noticia:hover{
+    transform: scale(1.03);
+    
+}
+.articulo{
+    width: 500px;
+    height: 300px;
+    max-width: 100%;
+}
+.loginbox {margin: 5px;
+	padding: 5px;
+	background: yellow;
+	text-align: center;
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+ align-items: center;
+  position: relative;
+    box-sizing: border-box;
+    border-color: #FFCB01;
+    margin: 0 auto;
+ 
+}
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type = "text"], input[type = "password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: #FFCB01;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.loginbox input[type = "text"], input[type = "email"] {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: #FFCB01;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.loginbox input[type = "submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #FFCB01;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type = "submit"]:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover {
+    color: #fff;
+}
+.pie a img {display: inline-flex;
+    margin-top: 80px;
+    width: 30px;
+    height: 30px;
+}
+
+.estadio{width: 250px;
+	height: 250px;
+justify-content:right;
+transition: 1s;
+}
+.estadio:hover{
+    transform: scale(1.05);
+    
+}
+
+.escudo{width: 250px;
+	height: 250px;
+justify-content:right;
+transition: 1s;
+}
+.escudo:hover{
+    transform: scale(1.05);
+}
+.cds{width: 250px;
+	height: 250px;
+justify-content:right;
+transition: 1s; 
+}
+.cds:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+    .estadio {display: none;}
+    .cds {display:none;}
+
+}
+.foto-principal {
+    max-width: 80%;
+}
+.fotos {
+    max-width: 100%;
+}
+.nav-color{
+    background-color: #FFCB01;
+}
+.navbar .navbar-nav, .navbar .mr-auto {
+    flex: 1;
+  }
