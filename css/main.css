@@ -87,6 +87,11 @@ p {
   font-size: 18px;
   font-family: texto; }
 
+.parrafo-noticias {
+  padding: 10px 0px;
+  margin: 10px 0px;
+  min-height: 133px; }
+
 a {
   text-decoration: none;
   color: yellow;
@@ -187,3 +192,10 @@ iframe {
   transition: 1s; }
   .noticia:hover {
     transform: scale(1.03); }
+
+.contenido, .contenido2 {
+  border: 1px solid yellow;
+  padding: 2px; }
+
+.contenido2 {
+  border-color: #aaa; }

@@ -6,3 +6,11 @@
         transform: scale(1.03)
     }
 }
+.contenido{
+    border: 1px solid yellow;
+    padding: 2px;
+}
+.contenido2{
+    @extend .contenido;
+    border-color: #aaa;
+}
