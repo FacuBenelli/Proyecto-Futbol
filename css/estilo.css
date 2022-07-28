@@ -59,7 +59,9 @@ a{text-decoration: none;
 .links{
 	margin: 20px 20px;
 }
-iframe{
+iframe{width: 500px;
+    height: 500px;
+    max-width: 80%;
     margin: 20px;
     padding: 20px;
     border: #000;
@@ -107,15 +109,10 @@ iframe{
     height: 300px;
     max-width: 100%;
 }
-.header{
-    background-color: #000;
-}
-.loginBox{margin: 5px;
+.loginbox {margin: 5px;
 	padding: 5px;
 	background: yellow;
 	text-align: center;
-}
-.loginbox {
     width: 320px;
     height: 420px;
     background: #000;
@@ -123,6 +120,7 @@ iframe{
  align-items: center;
   position: relative;
     box-sizing: border-box;
+    border-color: #FFCB01;
     margin: 0 auto;
  
 }
@@ -140,19 +138,19 @@ iframe{
 .loginbox input[type = "text"], input[type = "password"] {
     border: none;
     border-bottom: 1px solid #fff;
-    background: transparent;
+    background: #FFCB01;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 16px;
 }
 .loginbox input[type = "text"], input[type = "email"] {
     border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: #FFCB01;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 16px;
 }
 .loginbox input[type = "submit"] {
