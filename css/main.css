@@ -180,3 +180,10 @@ iframe {
   width: 500px;
   height: 300px;
   max-width: 100%; }
+
+.noticia {
+  width: auto;
+  max-width: 100%;
+  transition: 1s; }
+  .noticia:hover {
+    transform: scale(1.03); }
