@@ -7,6 +7,11 @@
     font-family: "texto";
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
+@mixin screen ($width, $height) {
+    width: $width;
+    height: $height;
+    
+}
 body{ max-width: 100%;
 	background: black;
 }
@@ -19,8 +24,8 @@ header{justify-content: center;
     .cds {display:none;}
 
 }
-.estadio{width: 250px;
-	height: 250px;
+.estadio{
+    @include screen (250px,250px);
 justify-content:right;
 transition: 1s;
 &:hover{
@@ -28,16 +33,16 @@ transition: 1s;
     
 }
 }
-.escudo{width: 250px;
-	height: 250px;
+.escudo{
+    @include screen (250px,250px);
 justify-content:right;
 transition: 1s;
 &:hover{
     transform: scale(1.05);
 }
 }
-.cds{width: 250px;
-	height: 250px;
+.cds{
+    @include screen (250px,250px);
 justify-content:right;
 transition: 1s;
 &:hover{
