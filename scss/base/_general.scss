@@ -106,7 +106,6 @@ a{text-decoration: none;
 }
 .pie a img {display: inline-flex;
     margin-top: 80px;
-    width: 30px;
-    height: 30px;
+    @include screen (30px,30px);
     margin: 20px;
 }

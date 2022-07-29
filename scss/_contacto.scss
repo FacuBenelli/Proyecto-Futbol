@@ -1,3 +1,13 @@
+$login:(
+    border-radius:10px,
+    border: none,
+    border-bottom: 1px solid rgb(0, 0, 0),
+    background: #FFCB01,
+    outline: none,
+    height: 40px,
+    color: rgb(0, 0, 0),
+    font-size: 16px,
+);
 .loginbox {margin: 5px;
 	padding: 5px;
 	background: yellow;
@@ -6,7 +16,7 @@
     height: 420px;
     background: rgb(0, 0, 0);
     color: #fff;
- align-items: center;
+    align-items: center;
     box-sizing: border-box;
     border-color: #FFCB01;
     margin: 0 auto;
@@ -23,22 +33,24 @@
     margin-bottom: 20px;
 }
 .loginbox input[type = "text"], input[type = "Email"]{
-    border: none;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    background: #FFCB01;
-    outline: none;
-    height: 40px;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
+    border-radius: map-get($login , border-radius )  ;
+    border: map-get($login , border ) ;
+    border-bottom: map-get($login , border-bottom ) ;
+    background:  map-get($login , background ) ;
+    outline:  map-get($login , outline ) ;
+    height:  map-get($login , height ) ;
+    color:  map-get($login , color ) ;
+    font-size:  map-get($login , font-size) ;
 }
 .loginbox input[type = "text"], input[type = "password"] {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: #FFCB01;
-    outline: none;
-    height: 40px;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
+    border-radius: map-get($login , border-radius )  ;
+    border: map-get($login , border ) ;
+    border-bottom: map-get($login , border-bottom ) ;
+    background:  map-get($login , background ) ;
+    outline:  map-get($login , outline ) ;
+    height:  map-get($login , height ) ;
+    color:  map-get($login , color ) ;
+    font-size:  map-get($login , font-size) ;
 }
 .loginbox input[type = "submit"] {
     border: none;
