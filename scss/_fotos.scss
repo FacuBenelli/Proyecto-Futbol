@@ -1,5 +1,10 @@
+@mixin screen ($width, $height) {
+    width: $width;
+    height: $height;
+    
+}
 .articulo{
-    width: 500px;
-    height: 300px;
+    @include screen(500px, 300px);
     max-width: 100%;
+  
 }
