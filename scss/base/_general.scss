@@ -1,3 +1,4 @@
+/*GENERAL*/
 *{
 	margin: 0;
 	padding: 0;
@@ -7,6 +8,7 @@
     font-family: "texto";
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
+/*MIXIN*/
 @mixin screen ($width, $height) {
     width: $width;
     height: $height;
@@ -15,6 +17,7 @@
 body{ max-width: 100%;
 	background: black;
 }
+/*HEADER*/
 header{justify-content: center;
 	display: flex;
     background-color: black;
@@ -49,12 +52,14 @@ transition: 1s;
     transform: scale(1.05);
 } 
 }
+/*NAVBAR*/
 .nav-color{
     background-color: #FFCB01;
 }
 .navbar .navbar-nav, .navbar .mr-auto {
     flex: 1;
   }
+  /*TITULOS*/
 h1{ 
 
 	color: #FFCB01;
@@ -82,18 +87,20 @@ h6{text-align: center;
     color: black;
     background-color: yellow;
 }
+/*TEXTO GENERAL*/
 p{margin: 20px 20px;
 	padding: 10px 20px;
 	color: white;
 	font-size: 18px;
     font-family: texto;   
 }
-
+/*PARRAFO DE NOTICIAS*/
 .parrafo-noticias{
     padding: 10px 0px;
     margin: 10px 0px ;
     min-height: 133px;
 }
+/*LINKS*/
 a{text-decoration: none;
 	color: yellow;
     font-weight: 500px;
@@ -104,6 +111,7 @@ a{text-decoration: none;
 .fotos {
     max-width: 100%;
 }
+/*FOOTER*/
 .pie a img {display: inline-flex;
     margin-top: 80px;
     @include screen (30px,30px);
