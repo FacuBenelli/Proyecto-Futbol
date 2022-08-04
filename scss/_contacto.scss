@@ -35,7 +35,6 @@ $login:(
     padding-left: 5px;
 }
 .inicio{
-    border-radius: map-get($login , border-radius )  ;
     border: map-get($login , border ) ;
     border-bottom: map-get($login , border-bottom ) ;
     background:  map-get($login , background ) ;
