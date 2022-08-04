@@ -13,7 +13,7 @@ $login:(
 	padding: 5px;
 	background: yellow;
 	text-align: center;
-    width: 320px;
+    width: 300px;
     height: 420px;
     background: rgb(0, 0, 0);
     color: #fff;
@@ -34,7 +34,7 @@ $login:(
     margin-bottom: 20px;
     padding-left: 5px;
 }
-.loginbox input[type = "text"], input[type = "Email"]{
+.inicio{
     border-radius: map-get($login , border-radius )  ;
     border: map-get($login , border ) ;
     border-bottom: map-get($login , border-bottom ) ;
@@ -44,16 +44,7 @@ $login:(
     color:  map-get($login , color ) ;
     font-size:  map-get($login , font-size) ;
 }
-.loginbox input[type = "text"], input[type = "password"] {
-    border-radius: map-get($login , border-radius )  ;
-    border: map-get($login , border ) ;
-    border-bottom: map-get($login , border-bottom ) ;
-    background:  map-get($login , background ) ;
-    outline:  map-get($login , outline ) ;
-    height:  map-get($login , height ) ;
-    color:  map-get($login , color ) ;
-    font-size:  map-get($login , font-size) ;
-}
+
 .loginbox input[type = "submit"] {
     border: none;
     outline: none;
